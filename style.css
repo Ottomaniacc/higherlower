@@ -1,0 +1,125 @@
+body {
+    background-image: url(images/background/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Wrapper {
+    background-color: #cccccc;
+    width: 600px;
+    height: 550px;    
+    border: 4px solid black;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.buttons{
+    float: right;
+    margin-top: 75px;
+    margin-right: 135px;
+}
+
+#amount2 {
+   height: 40px;
+   width: 125px;
+   background-color: white;
+   float: left;
+   margin-top: 50px;
+   margin-left: 50px;
+}
+
+#amount{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.throwOne {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.throwTwo {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#throwOneHtml{
+    text-align: center;
+    font-size: 40pt;
+    margin-top: 19px;
+}
+
+#throwTwoHtml{
+    text-align: center;
+    font-size: 40pt;
+    margin-top: 19px;
+}
+
+#higher {
+height: 100px;
+width: 100px;
+float: left;
+border: solid black 2px;
+margin-right: 15px;
+}
+
+#lower {
+height: 100px;
+width: 100px;
+float: left;
+border: solid black 2px;
+transition-duration: 0.5s;
+margin-left: 15px;
+}
+
+#throws{
+    margin-top: 75px;
+    margin-left: 185px;
+}
+
+#roll {
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: solid rgb(100, 231, 35) 4px;
+    transition-duration: 0.5s;
+}
+
+#higher:hover:disabled{
+    background-color: red;
+}
+
+#lower:hover:disabled{
+    background-color: red;
+}
+
+button:hover {
+    background-color: rgb(63, 216, 36);
+    color: white;
+    cursor: pointer;
+}
+
+#roll:hover:disabled{
+    background-color: red;
+}
+
+.home {
+    margin-top: -650px;
+    width: 200px;
+    height: auto;
+    float: left;
+}
